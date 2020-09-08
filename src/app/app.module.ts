@@ -9,6 +9,7 @@ import { TodaySessionsComponent } from './today-sessions/today-sessions.componen
 import { AllSessionsComponent } from './all-sessions/all-sessions.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { AboutComponent } from './about/about.component';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AboutComponent } from './about/about.component';
     TodaySessionsComponent,
     AllSessionsComponent,
     AboutusComponent,
-    AboutComponent
+    AboutComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
