@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { TodaySessionsComponent } from './today-sessions/today-sessions.component';
+import { AllSessionsComponent } from './all-sessions/all-sessions.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     FooterComponent,
-    TodaySessionsComponent
+    TodaySessionsComponent,
+    AllSessionsComponent
   ],
   imports: [
     BrowserModule,
