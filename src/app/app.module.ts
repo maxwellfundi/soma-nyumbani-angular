@@ -8,6 +8,9 @@ import { FooterComponent } from './footer/footer.component';
 import { TodaySessionsComponent } from './today-sessions/today-sessions.component';
 import { AllSessionsComponent } from './all-sessions/all-sessions.component';
 import { AboutComponent } from './about/about.component';
+import { TeamComponent } from './team/team.component';
+import { TodayComponent } from './today/today.component';
+import { NextComponent } from './next/next.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { AboutComponent } from './about/about.component';
     FooterComponent,
     TodaySessionsComponent,
     AllSessionsComponent,
-      AboutComponent
+      AboutComponent,
+      TeamComponent,
+      TodayComponent,
+      NextComponent
   ],
   imports: [
     BrowserModule,
