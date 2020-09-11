@@ -1,1 +1,8 @@
-<p>menu works!</p>
+<div class="toolbar">
+  <img class="logo" alt="Soma Nyumbani Logo" src="assets/images/logo.png" />
+   <div class="desktop-menu">
+    <a *ngFor="let item of menuItems" [routerLink]="item.href">{{
+      item.name
+    }}</a>
+  </div>
+</div>
