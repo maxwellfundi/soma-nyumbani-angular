@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-//todo. this needs to be globalised
 const MENU_ITEMS: { name: string, href?: string }[] = [
   { name: "Home", href: "/" },
   { name: "Today's Session", href: "/today" },

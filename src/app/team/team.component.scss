@@ -1,6 +1,7 @@
 /* FontAwesome for working BootSnippet :> */
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-#team {
+
+.team {
     background: #eee !important;
 }
 
@@ -15,7 +16,7 @@ section .section-title {
     text-transform: uppercase;
 }
 
-#team .card {
+.team .card {
     border: none;
     background: #ffffff;
 }
