@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { TeamComponent } from './team/team.component';
 import { AllSessionsComponent } from './all-sessions/all-sessions.component';
 import { TodayComponent } from './today/today.component';
+import { NextComponent } from './next/next.component';
 
 const routes: Routes = [
   { 
@@ -23,6 +24,10 @@ const routes: Routes = [
         path: "today",
         component: TodayComponent
       } , 
+  {
+    path: "next",
+    component: NextComponent
+  }, 
       {
         path: "**", 
         redirectTo: ""
