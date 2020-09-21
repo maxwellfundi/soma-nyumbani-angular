@@ -1,14 +1,24 @@
 import { Injectable } from '@angular/core';
+import { NavigationEnd, Router } from '@angular/router';
 
 declare let gtag: Function;
+const GOOGLE_ANALYTICS_MEASUREMENT_ID = "G-DK7VWVP5BJ";
 
 @Injectable({
   providedIn: 'root'
 })
 export class WebAnalyticsService {
 
-  constructor() {
-    
+  constructor(public router: Router) {
+    this.router.events.subscribe(event => {
+      if (event instanceof NavigationEnd) {
+        gtag('config', GOOGLE_ANALYTICS_MEASUREMENT_ID,
+          {
+            'page_path': event.urlAfterRedirects
+          }
+        );
+      }
+    });
   }
 
   public emitAnlayticsEvent(
