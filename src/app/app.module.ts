@@ -11,6 +11,7 @@ import { TeamComponent } from './team/team.component';
 import { TodayComponent } from './today/today.component';
 import { NextComponent } from './next/next.component';
 import { MenuComponent } from './menu/menu.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { MenuComponent } from './menu/menu.component';
         ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
