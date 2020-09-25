@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "soma-nyumbani-angular"
+    }
+  },
+  "defaultProject": "soma-nyumbani-angular",
+  "cli": {
+    "analytics": "14bea4b4-e114-441c-8284-6ff43d0574b4"
+  }
 }
